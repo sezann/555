@@ -22,19 +22,29 @@
             font-size: 50px;
             margin-bottom: 50px;
         }
-        div {
-            margin-top: 20px;
+        .child +.child {
+            margin-left: 20px;
+        }
+        .child {
+            display: inline;
         }
        
     </style>
 </head>
 <body>
     <h1>GIKALO</h1>
-    <div>
-        <a href="https://instagram.com/overdrive.workshop?igshid=a2qecb9csg22"><img src="icons/footer-ins@2x.png" alt="instagram"/></a>
+    <div class="parent">
+    <div class="child"><a href="https://instagram.com/overdrive.workshop?igshid=a2qecb9csg22"><img src="icons/footer-ins@2x.png" alt="instagram"/></a>
+    </div>
+    <div class="child">
         <a href="https://vk.com/overdriveworkshop"><img src="icons/vk1.png" alt="vkontakte"/></a>
+    </div>
+    <div class="child">
         <a href="https://m.youtube.com/watch?feature=youtu.be&v=fWXM5oaUnH0"><img src="icons/youtube 5.png"/></a>
+    </div>
+    <div class="child">
         <a href="https://gikaloea@mail.ru"><img src="icons/email.png" alt="mail"/></a>
+    </div>
     </div>
         <h2>thank you for your interest</h2>
 
