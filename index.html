@@ -10,7 +10,7 @@
             background: rgb(121, 116, 116);
             color: white;
             text-align: center;
-            max-width: 400;
+            max-width: 1200px;
             margin: 0 auto;
         }
         @font-face {
@@ -21,8 +21,17 @@
             font-style: normal;
             font-display: swap;
         }
+        @media all and (max-width: 400px) {
+        .header__title {
+        font-size: 36px;
+         }
+        }
+
+        .header__title {
+        font-size: 72px;
+        }
+
         h1 {
-            max-width: 1200px;
             font-weight: 400;
             font-size: 200px;
             margin-top: 100px;
@@ -42,7 +51,7 @@
     </style>
 </head>
 <body>
-    <h1>GIKALO</h1>
+    <h1 class="header_title">GIKALO</h1>
     <div class="parent">
     <div class="child"><a href="https://instagram.com/overdrive.workshop?igshid=a2qecb9csg22"><img src="icons/footer-ins@2x.png" alt="instagram"/></a>
     </div>
