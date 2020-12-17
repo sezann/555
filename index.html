@@ -6,12 +6,15 @@
     <title>GIKALO</title>
     <link rel="style.scc" href="555/style.css/Trajan Pro Regular.ttf">
     <style>
+        html{
+            font-size: calc(10 / 1440 * 100vw);
+        }
         body {
             background: rgb(121, 116, 116);
             color: white;
             text-align: center;
-            max-width: 1200px;
             margin: 0 auto;
+            max-width: 160rem;
         }
         @font-face {
             font-family: 'Trajan Pro 3';
@@ -21,24 +24,15 @@
             font-style: normal;
             font-display: swap;
         }
-        @media all and (max-width: 400px) {
-        .header__title {
-        font-size: 36px;
-         }
-        }
-
-        .header__title {
-        font-size: 72px;
-        }
 
         h1 {
             font-weight: 400;
-            font-size: 200px;
+            font-size: 20rem;
             margin-top: 100px;
             margin-bottom: 100px;
         }
         h2 {
-            font-size: 50px;
+            font-size: 5rem;
             margin-bottom: 50px;
         }
         .child +.child {
@@ -46,12 +40,17 @@
         }
         .child {
             display: inline;
-        }
-       
+            max-width: 12,8rem;
+       }
+       .parent {
+           display: inline;
+           position: relative;
+           font-size: 5rem;
+       }
     </style>
 </head>
 <body>
-    <h1 class="header_title">GIKALO</h1>
+    <h1>GIKALO</h1>
     <div class="parent">
     <div class="child"><a href="https://instagram.com/overdrive.workshop?igshid=a2qecb9csg22"><img src="icons/footer-ins@2x.png" alt="instagram"/></a>
     </div>
